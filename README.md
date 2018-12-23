@@ -9,7 +9,7 @@ RFC1945 문서를 읽으며 구현했기 때문에,
 **Java의 HTTP지원을 위한 라이브러리들을 전혀 이용하지 않음**
 
 #### 지원하는 기능 및 특장점
-- HTTP/1.0과 HTTP/0.9 메시지를 읽을 수 있음
+- HTTP/1.0과 HTTP/0.9 메시지를 읽고 생성할 수 있음
 - 문서에 명시된 세 가지 시간 형식(ASCTIME, RFC1036, RFC1123)을 전부 읽을 수 있음
 - www-authentication을 BASIC 포맷으로 지원함
 - RequestServlet DTO, ResponseServlet DTO 객체들을 이용해 원하는 메시지를 생성하거나 받을 수 있음
